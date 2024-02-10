@@ -409,9 +409,9 @@
      <h3>Data Set Usage Rights</h3>
 
        <!-- add in the intellectiual rights info -->
-     <table class="subGroup onehundred_percent">  
+     <table class="subGroup onehundred_percent subGroup_border">  
        <tr>
-         <td>
+         <td colspan="2" class="onehundred_percent">
            <xsl:if test="intellectualRights">
              <xsl:for-each select="intellectualRights">
                <xsl:call-template name="resourceintellectualRights">
@@ -425,9 +425,9 @@
      </table>
 
      <h3>Data Set License</h3>
-     <table class="subGroup onehundred_percen">
+     <table class="subGroup onehundred_percent subGroup_border">
       <tr>
-       <td>
+       <td colspan="2" class="onehundred_percent">
         <xsl:if test="licensed">
              <xsl:for-each select="licensed">              
                 <xsl:call-template name="resourceintellectualRights">

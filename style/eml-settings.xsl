@@ -171,10 +171,10 @@
     */
 -->
 
-  <xsl:param name="tripleURI"><xsl:value-of select="$repositoryURL" /><![CDATA[/blob/main/eml.xml]]></xsl:param>
+  <xsl:param name="tripleURI"><xsl:value-of select="$repositoryURL" /><![CDATA[/main/eml.xml]]></xsl:param>
 
     <!-- URL for xmlformat-->
-    <xsl:param name="xmlURI"><xsl:value-of select="$repositoryURL" /><![CDATA[/blob/main/eml.xml]]></xsl:param>
+    <xsl:param name="xmlURI"><xsl:value-of select="$repositoryURL" /><![CDATA[/main/eml.xml]]></xsl:param>
 
 
 <!--
